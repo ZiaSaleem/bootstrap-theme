@@ -4,13 +4,12 @@ import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import {Link} from "react-router-dom";
 import HeaderOne from '../common/header/HeaderOne';
-import CounterUpFour from '../elements/counterup/CounterUpFour';
 import ServiceOne from '../elements/service/ServiceOne';
 import AboutFour from '../elements/about/AboutFour';
-import AdvancePricingOne from '../elements/advancePricing/AdvancePricingOne';
-import BrandOne from '../elements/brand/BrandOne';
+import PortfolioOne from "../elements/portfolio/PortfolioOne";
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
+import AdvanceTabOne from '../elements/advancetab/AdvanceTabOne';
 
 
 const BannerData = [
@@ -63,13 +62,6 @@ const WebAgency = () => {
                                 <div className="thumbnail">
                                     <img className="radius w-100" src="./images/bg/bg-image-21.jpg" alt="Images" />
                                 </div>
-                                {/* Start Elements Area  */}
-                                <div className="rwt-counterup-area ptb--60">
-                                    <div className="col-lg-12">
-                                        <CounterUpFour column="col-lg-3 col-md-6 col-sm-6 col-12" counterStyle="counter-style-4" textALign="text-center" />   
-                                    </div>
-                                </div>
-                                {/* End Elements Area  */}
                             </div>
                         </div>
                     </div>
@@ -123,50 +115,42 @@ const WebAgency = () => {
                 <AboutFour image="./images/about/contact-image.jpg" />
 
                 {/* Start Elements Area  */}
-                <div className="rwt-pricingtable-area rn-section-gapBottom">
+                <div className="rwt-advance-tab-area rn-section-gap">
                     <div className="container">
-                        <div className="row">
+                        <div className="row mb--40">
                             <div className="col-lg-12">
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "Our Pricing Plan"
-                                    title = "Web Pricing Plan."
-                                    description = ""
+                                    subtitle = "You can acquire all."
+                                    title = "Acquire new customers with Doob."
+                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                 />
                             </div>
                         </div>
-                        <div className="row mt--30">
-                            <div className="col-lg-8 offset-lg-2">
-                                <AdvancePricingOne />
-                            </div>
-                        </div>
+                        <AdvanceTabOne />
                     </div>
                 </div>
                 {/* End Elements Area  */}
 
-                {/* Start Brand Area  */}
-                <div className="rwt-brand-area rn-section-gapBottom">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Our Awesome Client"
-                                    title = "Our Awesome Client."
-                                    description = ""
-                                />
+                <div className="main-content">
+                    <div className="rwt-elements-area rn-section-gap">
+                        <div className="container-fluid plr--30">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <SectionTitle
+                                        textAlign = "text-center"
+                                        radiusRounded = ""
+                                        subtitle = "Portfolio Box Layout"
+                                        title = "Happily Clients Complete <br /> Our Business Project!"
+                                        description = ""
+                                    />
+                                </div>
                             </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-lg-12 mt--40">
-                                <BrandOne brandStyle="brand-style-1" />
-                            </div>
+                            <PortfolioOne Column="col-lg-4 col-md-6 mt--30 box-grid-layout no-overlay" />
                         </div>
                     </div>
                 </div>
-                {/* End Brand Area  */}
 
                 <FooterTwo />
                 <Copyright />

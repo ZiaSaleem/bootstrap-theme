@@ -6,18 +6,18 @@ import ScrollAnimation from "react-animate-on-scroll";
 const ServiceList = [
     {
         icon: <FiActivity />,
-        title: 'Awarded Design',
-        description: 'There are many variations variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        title: 'Limited Mints',
+        description: 'Our gold is difficult to get as we mint a very *limited quantity every year to ensure the value preservation. See Annex-A of RMM© Schedule-2022.'
     },
     {
         icon: <FiCast />,
-        title: 'Design & Creative',
-        description: 'Passages there are many variations variations  of of Lorem Ipsum available, but the majority have suffered.'
+        title: 'Ever Growing Value',
+        description: 'Strong demand in the metaverse makes our gold prestigious and offers an ever growing value of the asset. Making it essentialy risk-free.'
     },
     {
         icon: <FiMap />,
-        title: 'App Development',
-        description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        title: 'We Buy Back',
+        description: 'We will always buy back from you at live market price of gold. RMM© independently monitors the price of gold being circulated in metaverse.'
     },
 ]
 

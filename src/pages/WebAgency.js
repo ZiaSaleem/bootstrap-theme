@@ -15,8 +15,8 @@ import AdvanceTabOne from '../elements/advancetab/AdvanceTabOne';
 const BannerData = [
     {
         image: "/images/bg/bg-image-20.jpg",
-        title: "Our Web <br /> Agecny Plan.",
-        description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+        title: "Royal Mint <br /> of Metaverse",
+        description: "Gold is the safest investment you will ever make, <br /> let it be the Real World or the Metaverse."
     },
 ]
 
@@ -37,12 +37,12 @@ const WebAgency = () => {
                                 <div className="row align-items-center">
                                     <div className="col-lg-12">
                                         <div className="inner text-center">
-                                            <span className="subtitle theme-gradient">Hello! This is WebAgency</span>
+                                            <span className="subtitle theme-gradient">Introducing World to the Only & Prestige</span>
                                             <h1 className="title" dangerouslySetInnerHTML={{__html: data.title}}></h1>
                                             <p className="description" dangerouslySetInnerHTML={{__html: data.description}}></p>
                                             <div className="button-group mt--30">
                                                 <a className="btn-default btn-large round" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Explore Now</a>
-                                                <a className="btn-default btn-border btn-large round" href="#">Contact Us</a>
+                                                <a className="btn-default btn-border btn-large round" href="#">Buy at OpenSea.io</a>
                                             </div>
                                         </div>
                                     </div>
@@ -76,11 +76,11 @@ const WebAgency = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title">We are creative digital agency working for our company brands.</h3>
+                                    <h3 className="title">RMM© mints limited quantity of gold every year</h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <p className="mb--10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
+                                <p className="mb--10">Royal Mint of Metaverse mints a limited quantity of gold every year to preserve its value across the metaverse and give investors an ever increasing valued assest. This is the first ever risk-free NFT investment of its kind.</p>
                                 <div className="readmore-btn">
                                     <Link className="btn-read-more" to="#"><span>View More</span></Link>
                                 </div>
@@ -98,8 +98,8 @@ const WebAgency = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "What we can do for you"
-                                    title = "Services provide for you."
+                                    subtitle = "An Asset Which Retains Value is - Gold"
+                                    title = "Gold Can Make Money For You"
                                     description = ""
                                     />
                             </div>
@@ -122,9 +122,9 @@ const WebAgency = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "You can acquire all."
-                                    title = "Acquire new customers with Doob."
-                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                    subtitle = "Strongest of All Currencies"
+                                    title = "Official categories of RMM© Mints"
+                                    description = "There are only three types of bars minted, <br /> at the Royal Mint of Metaverse (*as per Schedule-2022)"
                                 />
                             </div>
                         </div>

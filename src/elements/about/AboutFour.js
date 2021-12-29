@@ -28,15 +28,15 @@ const AboutFour = ({image}) => {
                     <div className="col-lg-6 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title">Doob specializes in <br /> small <strong>Corporate Business.</strong></h3>
+                                <h3 className="title">RMM© Offers NFT Gold Bars <br /> on <strong>Ethereum Block Chain</strong></h3>
                                 <ul className="feature-list">
                                     <li>
                                         <div className="icon">
                                             <FiCheck />
                                         </div>
                                         <div className="title-wrapper">
-                                            <h4 className="title">A good traveler has no fixed plans</h4>
-                                            <p className="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p>
+                                            <h4 className="title">Zero Security Hazard</h4>
+                                            <p className="text">Buy your gold NFTs with ultimate authenticity & flawless security protocols of Ethereum Block Chain.</p>
                                         </div>
                                     </li>
                                     <li>
@@ -44,13 +44,13 @@ const AboutFour = ({image}) => {
                                             <FiCheck />
                                         </div>
                                         <div className="title-wrapper">
-                                            <h4 className="title">A good traveler has no fixed plans</h4>
-                                            <p className="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p>
+                                            <h4 className="title">Verify Gold at RMM© Website</h4>
+                                            <p className="text">Each gold bar is minted with a unqiue 6-characters ID, easily verifiable at RMM© Official Website.</p>
                                         </div>
                                     </li>
                                 </ul>
                                 <div className="about-btn mt--30">
-                                    <a className="btn-default" href="#">About Our Doob</a>
+                                    <a className="btn-default" href="#">Buy Now at OpenSea.io</a>
                                 </div>
                             </div>
                         </div>

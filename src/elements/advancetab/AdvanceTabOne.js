@@ -11,20 +11,20 @@ const AdvanceTabOne = () => {
                             <TabList className="tab-button-list">
                                 <Tab>
                                     <div className="tab-button">
-                                        <h4 className="title">Market Researce.</h4>
-                                        <p className="description">Use Doob template you can build a corporate website a short time.</p>
+                                        <h4 className="title">RMM© Stamped Gold Bars</h4>
+                                        <p className="description">Multiple mints of RMM© stamped gold bars. 400 Ounces in 2022 *as per Schedule-2022</p>
                                     </div>   
                                 </Tab>
                                 <Tab>
                                     <div className="tab-button">
-                                        <h4 className="title">Corporate Report.</h4>
-                                        <p className="description">Use Doob template you can build a corporate website a short time.</p>
+                                        <h4 className="title">Premium Stamped Gold Bars</h4>
+                                        <p className="description">Limited mints with premium stamps - no more than 3 mints of same stamp in year. 300 Ounces in 2022 *as per Schedule-2022</p>
                                     </div>   
                                 </Tab>
                                 <Tab>
                                     <div className="tab-button">
-                                        <h4 className="title">App Development.</h4>
-                                        <p className="description">Use Doob template you can build a corporate website a short time.</p>
+                                        <h4 className="title">Novel Gold Bars</h4>
+                                        <p className="description">Once in lifetime, unique mints with novel stamps - no more than 1 mint of same stamp in lifetime. 200 Ounces in 2022 *as per Schedule-2022</p>
                                     </div>   
                                 </Tab>
                             </TabList>

@@ -27,13 +27,13 @@ const Nav = () => {
                 </ul>
             </li>
             
-            <li><Link to="/about-us">About</Link></li>
+            <li><Link to="/about-us">About RMM©</Link></li>
 
-            <li className="with-megamenu"><Link to="#">Elements</Link>
+            <li className="with-megamenu"><Link to="#">Policy & Schedule (2022)</Link>
                 <div className="rn-megamenu">
                     <div className="wrapper">
                         <div className="row row--0">
-                            <div className="col-lg-3 single-mega-item">
+                            {/* <div className="col-lg-3 single-mega-item">
                                 <ul className="mega-menu-item">
                                     <li><Link to="/button">Button</Link></li>
                                     <li><Link to="/service">Service</Link></li>
@@ -65,15 +65,14 @@ const Nav = () => {
                                     <li><Link to="/portfolio">Portfolio</Link></li>
                                     <li><Link to="/error">404</Link></li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="col-lg-3 single-mega-item">
                                 <ul className="mega-menu-item">
-                                    <li><Link to="/advance-tab">Advance Tab <span className="rn-badge-card">Hot</span></Link></li>
-                                    <li><Link to="#">Brand Carousel <span className="rn-badge-card">Comming</span></Link></li>
-                                    <li><Link to="advance-pricing">Advance Pricing <span className="rn-badge-card">Hot</span></Link></li>
-                                    <li><Link to="/portfolio-details/1">Portfolio Details</Link></li>
-                                    <li><Link to="/blog-details/1">Blog Details</Link></li>
-                                    <li><Link to="/error">404 Page</Link></li>
+                                    <li><Link to="/advance-tab">Annex-B <span className="rn-badge-card">New</span></Link></li>
+                                    <li><Link to="#">Annex-A</Link></li>
+                                    <li><Link to="advance-pricing">Minting Schedule <span className="rn-badge-card">Updated</span></Link></li>
+                                    <li><Link to="/portfolio-details/1">Buy Back Policy</Link></li>
+                                    <li><Link to="/blog-details/1">Category Policy</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -81,16 +80,16 @@ const Nav = () => {
                 </div>
             </li>
 
-            <li className="has-droupdown"><Link to="#">Blog</Link>
+            {/* <li className="has-droupdown"><Link to="#">Blog</Link>
                 <ul className="submenu">
                     <li><Link to="/blog-grid">Blog Grid</Link></li>
                     <li><Link to="/blog-grid-sidebar">Blog Grid Sidebar</Link></li>
                     <li><Link to="/blog-list-view">Blog List View</Link></li>
                     <li><Link to="/blog-list-sidebar">Blog List View Sidebar</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
-            <li className="has-droupdown"><Link to="#">Portfolio</Link>
+            {/* <li className="has-droupdown"><Link to="#">Portfolio</Link>
                 <ul className="submenu">
                     <li><Link to="/portfolio">Portfolio Default</Link></li>
                     <li><Link to="/portfolio-three-column">Portfolio Three Column</Link></li>
@@ -98,9 +97,9 @@ const Nav = () => {
                     <li><Link to="/portfolio-grid-layout">Portfolio Grid Layout</Link></li>
                     <li><Link to="/portfolio-box-layout">Portfolio Box Layout</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
-            <li className="has-droupdown"><Link to="/contact">Contact</Link></li>
+            {/* <li className="has-droupdown"><Link to="/contact">Contact</Link></li> */}
         </ul>
     )
 }

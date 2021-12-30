@@ -10,15 +10,15 @@ const filters = [
     },
     {
       id: 2,
-      text: "design",
+      text: "RSS© Stamped",
     },
     {
       id: 3,
-      text: "art",
+      text: "Premium Stamped",
     },
     {
       id: 4,
-      text: "development",
+      text: "Novel Bars",
     }
 ];
 

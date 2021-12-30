@@ -70,25 +70,7 @@ const WebAgency = () => {
 
                 <Separator />
 
-                {/* Start Service Area  */}
-                <div className="service-area rn-section-gapTop">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6">
-                                <div className="content">
-                                    <h3 className="title">RMM© mints limited quantity of gold every year</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <p className="mb--10">Royal Mint of Metaverse mints a limited quantity of gold every year to preserve its value across the metaverse and give investors an ever increasing valued assest. This is the first ever risk-free NFT investment of its kind.</p>
-                                <div className="readmore-btn">
-                                    <Link className="btn-read-more" to="#"><span>View More</span></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Service Area  */}
+                
 
                 {/* Start Service Area  */}
                 <div className="rn-service-area rn-section-gapTop">
@@ -141,8 +123,8 @@ const WebAgency = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Portfolio Box Layout"
-                                        title = "Happily Clients Complete <br /> Our Business Project!"
+                                        subtitle = "Time Is Running Out"
+                                        title = "Explore & Get The Available Mints <br /> Before They Are Gone!"
                                         description = ""
                                     />
                                 </div>
@@ -151,6 +133,26 @@ const WebAgency = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* Start Service Area  */}
+                {/* <div className="service-area rn-section-gapTop">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="content">
+                                    <h3 className="title">RMM© mints limited quantity of gold every year</h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <p className="mb--10">Royal Mint of Metaverse mints a limited quantity of gold every year to preserve its value across the metaverse and give investors an ever increasing valued assest. This is the first ever risk-free NFT investment of its kind.</p>
+                                <div className="readmore-btn">
+                                    <Link className="btn-read-more" to="#"><span>View More</span></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
+                {/* End Service Area  */}
 
                 <FooterTwo />
                 <Copyright />

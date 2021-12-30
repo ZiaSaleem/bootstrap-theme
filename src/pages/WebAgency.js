@@ -10,7 +10,7 @@ import PortfolioOne from "../elements/portfolio/PortfolioOne";
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
 import AdvanceTabOne from '../elements/advancetab/AdvanceTabOne';
-
+import HeaderTopNews from '../common/header/HeaderTopNews';
 
 const BannerData = [
     {
@@ -26,6 +26,7 @@ const WebAgency = () => {
         <>
             <SEO title="Web Agency" />
             <main className="page-wrapper">
+            <HeaderTopNews />
                 <HeaderOne btnStyle="btn-small" HeaderSTyle="header-not-transparent" />
 
 
@@ -37,6 +38,9 @@ const WebAgency = () => {
                                 <div className="row align-items-center">
                                     <div className="col-lg-12">
                                         <div className="inner text-center">
+                                            <div className="logoo">
+                                            <img src="/images/logo/logo.png" />
+                                            </div>
                                             <span className="subtitle theme-gradient">Introducing World to the Only & Prestige</span>
                                             <h1 className="title" dangerouslySetInnerHTML={{__html: data.title}}></h1>
                                             <p className="description" dangerouslySetInnerHTML={{__html: data.description}}></p>

@@ -44,7 +44,7 @@ const PortfolioDetailsContent = ({ data }) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="portfolio-gallery mt--40">
+                            {/* <div className="portfolio-gallery mt--40">
                                 <div className="gallery mt--30">
                                     <div className="thumbnail">
                                         <img className="radius w-100" src={`${process.env.PUBLIC_URL}/${data.gallery.imageOne}`} alt="Corporate Image" />
@@ -60,7 +60,7 @@ const PortfolioDetailsContent = ({ data }) => {
                                         <img className="radius w-100" src={`${process.env.PUBLIC_URL}/${data.gallery.imageThree}`} alt="Corporate Image" />
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

@@ -4,8 +4,8 @@ import {Link} from "react-router-dom";
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="has-droupdown"><Link to="#">Home</Link>
-                <ul className="submenu">
+            <li><Link to="#">Home</Link>
+                {/* <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
                     <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
                     <li><Link to="/corporate">Corporate</Link></li>
@@ -24,16 +24,23 @@ const Nav = () => {
                     <li><Link to="/international-consulting">International Consulting</Link></li>
                     <li><Link to="/startup">Startup</Link></li>
                     <li><Link to="/web-agency">Web Agency</Link></li>
-                </ul>
+                </ul> */}
             </li>
             
             <li><Link to="/about-us">About RMM©</Link></li>
 
-            <li className="with-megamenu"><Link to="#">Policy & Schedule (2022)</Link>
-                <div className="rn-megamenu">
+            <li className="has-droupdown"><Link to="/policy-schedule">Policy & Schedule (2022)</Link>
+            <ul className="submenu">
+                                    <li><Link to="/policy-schedule#annexb">Annex-B</Link></li>
+                                    <li><Link to="/policy-schedule#annexa">Annex-A</Link></li>
+                                    <li><Link to="/policy-schedule#mintings">Minting Schedule</Link></li>
+                                    <li><Link to="/policy-schedule#backpolicy">Buy Back Policy</Link></li>
+                                    <li><Link to="/policy-schedule#categorypolicy">Category Policy</Link></li>
+                                </ul>
+                {/* <div className="rn-megamenu">
                     <div className="wrapper">
                         <div className="row row--0">
-                            {/* <div className="col-lg-3 single-mega-item">
+                             <div className="col-lg-3 single-mega-item">
                                 <ul className="mega-menu-item">
                                     <li><Link to="/button">Button</Link></li>
                                     <li><Link to="/service">Service</Link></li>
@@ -65,7 +72,7 @@ const Nav = () => {
                                     <li><Link to="/portfolio">Portfolio</Link></li>
                                     <li><Link to="/error">404</Link></li>
                                 </ul>
-                            </div> */}
+                            </div> 
                             <div className="col-lg-3 single-mega-item">
                                 <ul className="mega-menu-item">
                                     <li><Link to="/advance-tab">Annex-B <span className="rn-badge-card">New</span></Link></li>
@@ -77,7 +84,7 @@ const Nav = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </li>
 
             {/* <li className="has-droupdown"><Link to="#">Blog</Link>

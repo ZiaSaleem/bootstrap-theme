@@ -97,3 +97,63 @@
 @import 'footer/copyright';
 @import 'footer/darkmode';
 
+.logoo img{
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+.nav-info{
+    display: flex;
+    font-size: 14px;
+    margin-right: 2rem;
+    .main{
+color: white;
+font-weight: bold;
+        span{
+margin: 0px 5px;
+        }
+    }
+    .change{
+        display: flex;
+        .svg{}
+        .sec{
+            span{
+
+            }
+        }
+        
+    }
+    .minus{
+        color: red;
+        .svg{
+            svg{
+                fill: red;
+            }
+        }
+    }
+    .plus{
+        color: green;
+        .svg{
+            svg{
+                fill: green;
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+.p_card_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .timer_btn_wrap{
+        .timer{}
+        .btn{}
+    }
+}
+
+.policy_wrap{
+    margin: 4rem auto;
+    .sec{
+        margin-bottom: 2rem;
+    }
+}

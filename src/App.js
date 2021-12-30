@@ -28,6 +28,7 @@ import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
 import Author from "./pages/Author";
 import AboutUs from "./pages/AboutUs";
+import policy from './pages/Policy';
 
 // Elements import Here 
 
@@ -96,6 +97,7 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/international-consulting"}`} exact component={InternationalConsulting}/>
                     <Route path={`${process.env.PUBLIC_URL + "/startup"}`} exact component={Startup}/>
                     <Route path={`${process.env.PUBLIC_URL + "/web-agency"}`} exact component={WebAgency}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/policy-schedule"}`} exact component={policy}/>
 
                     {/* Blog Part  */}
                     <Route path={`${process.env.PUBLIC_URL + "/blog-grid"}`} exact component={BlogGridView}/>
@@ -136,7 +138,7 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-full-width"}`} exact component={PortfolioFullWidth}/>
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-grid-layout"}`} exact component={PortfolioGrid}/>
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-box-layout"}`} exact component={PortfolioBoxLayout}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/portfolio-details/:id"}`} exact component={PortfolioDetails}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/products/:id"}`} exact component={PortfolioDetails}/>
 
 
                 </Switch>

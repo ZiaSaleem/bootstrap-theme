@@ -45,17 +45,7 @@ return () => {
 return (
     <>
         <header ref={ref} className={`rn-header header-default ${HeaderSTyle} ${headerClasses}`}>
-            <div className="container position-relative">
-                <div className="row align-items-center row--0">
-                    <div className="col-lg-2 col-md-6 col-4">
-                        <Logo 
-                            image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                            image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
-                        />
-                    </div>
-                    <div className="col-lg-10 col-md-6 col-8 position-static">
-                        <div className="header-right">
-                            <div className="nav-info">
+        <div className="nav-info">
                                 <div className="main"><span>{data.v1}</span><span>{data.v2}</span></div>
                                 <div className={`change ${data.state}`}>
                                 <div className="svg">
@@ -66,6 +56,18 @@ return (
                                 <div className="sec"><span>({data.v3})</span> <span>{data.v4}</span></div>
                                 </div>
                             </div>
+                            
+            <div className="container position-relative">
+                <div className="row align-items-center row--0">
+                    <div className="col-lg-2 col-md-6 col-4">
+                        <Logo 
+                            image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                            image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
+                        />
+                    </div>
+                    <div className="col-lg-10 col-md-6 col-8 position-static">
+                        <div className="header-right">
+                            
                             <nav className="mainmenu-nav d-none d-lg-block">
                                 <Nav />
                             </nav>

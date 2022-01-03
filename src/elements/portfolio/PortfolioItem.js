@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-
+import Countdown from 'react-countdown';
 
 
 const PortfolioItem = ({ portfolio }) => {
@@ -24,7 +24,7 @@ const PortfolioItem = ({ portfolio }) => {
                     </h5>
                     <span className="subtitle b2 text-capitalize">{portfolio.category}</span>
                 </div>
-                <div className='timer_btn_wrap'><div className='timer' id="roott"></div><div className='btn'><button className='btn btn-default btn-small'>Buy Now</button></div></div>
+                <div className='timer_btn_wrap'><div className='timer'><Countdown date={new Date('Jan 08 2022').getTime()} /></div><div className='btnn'><button className='btn btn-default btn-small'>Buy Now</button></div></div>
                 </div>
             </div>
         </div>

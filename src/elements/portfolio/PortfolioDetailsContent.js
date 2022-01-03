@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Countdown from 'react-countdown';
 
 const PortfolioDetailsContent = ({ data }) => {
     return (
@@ -34,6 +34,7 @@ const PortfolioDetailsContent = ({ data }) => {
                                             <div className="view-btn mt--50">
                                                 <a className="btn-default btn-large round" href={`${data.btn.link}`}>{data.btn.buttontext}</a>
                                             </div>
+                                            <div className='detail_timer'><Countdown date={new Date('Jan 08 2022').getTime()} /></div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 mt_md--30 mt_sm--30">

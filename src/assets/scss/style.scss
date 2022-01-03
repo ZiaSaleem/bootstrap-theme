@@ -105,6 +105,8 @@
     display: flex;
     font-size: 14px;
     margin-right: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
     .main{
 color: white;
 font-weight: bold;
@@ -156,4 +158,28 @@ margin: 0px 5px;
     .sec{
         margin-bottom: 2rem;
     }
+}
+
+.timer_btn_wrap {
+    padding: 25px;
+    padding-left: 0px;
+    .timer{
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    .btnn{
+        text-align: right;
+        button{
+            padding: 0 10px;
+        }
+    }
+}
+.detail_timer {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 500;
+    color: white;
+}
+.rn-header.sticky{
+    height: 120px;
 }
